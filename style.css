@@ -127,10 +127,36 @@ div img {
 
 }
 
-.my-custom {}
+.my-custom {
+    display: flex;
+}
 
 .foot {
     background-color: #0A0826;
     color: #FFFFFF;
     text-align: center;
+}
+
+.white {
+    white-space: pre;
+}
+
+.futton {
+    background-color: #E02C6D;
+    padding: 4px;
+    width: 136px;
+    height: 37px;
+    color: aliceblue;
+    border: #E02C6D;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 14px;
+}
+
+.skills {
+    width: 328px;
+    margin: 29px;
+
+    text-align: center;
+    padding: 64px;
 }
