@@ -1,0 +1,136 @@
+/* icon name */
+/* font ar family */
+body {
+    margin: 120px;
+    background-color: #AAAAAA;
+
+
+
+}
+
+main {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: baseline;
+    padding: 20px;
+
+}
+
+.special {
+    margin-left: 302px;
+}
+
+
+.title {
+    margin-top: -57px;
+    margin-bottom: 67px;
+    margin-left: 17px;
+}
+
+.camera-section {
+    display: flex;
+}
+
+.main-camera {
+    width: 424px;
+    height: 307px;
+    margin-left: 40px;
+}
+
+.camera {
+    margin-left: 73px;
+}
+
+div img {
+    width: 458px;
+    height: 312px;
+}
+
+.button {
+    background-color: #E02C6D;
+    border-radius: 21px;
+    padding: 10px;
+    width: 130px;
+    height: 44px;
+    color: aliceblue;
+    border: #E02C6D;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 70px;
+    margin-right: -27px
+}
+
+.logos img {
+
+    height: 24px;
+    width: 105px;
+}
+
+/* second section */
+.section-name {
+    text-align: center;
+    color: #787885;
+
+}
+
+.grid-line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 16px;
+}
+
+
+.world-picture {
+    margin-top: 60px;
+}
+
+.world-pic {
+    padding: 14px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.photo {
+    height: 205px;
+    width: 238px;
+}
+
+.paragraph {
+    color: #787885;
+}
+
+.fa-star.gold {
+    color: #ffa600;
+}
+
+.see-more {
+    color: #E02C6DDE;
+    text-align: end;
+
+    margin-right: 20px;
+}
+
+/* third section */
+.custom {
+    color: #ffffff;
+    background-color: #59437a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.my-custom {}
+
+.foot {
+    background-color: #0A0826;
+    color: #FFFFFF;
+    text-align: center;
+}
