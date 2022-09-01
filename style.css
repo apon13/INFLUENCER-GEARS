@@ -160,3 +160,103 @@ div img {
     text-align: center;
     padding: 64px;
 }
+
+/* responsiveness */
+@media only screen and (max-width: 788px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+    }
+
+    .camera-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        margin-top: -27px;
+        margin-bottom: 23px;
+
+    }
+
+    .special {
+        margin-left: 23px;
+    }
+
+    .main-camera {
+        width: 344px;
+        height: 227px;
+        margin-left: 46px;
+    }
+
+    div img {
+        width: 408px;
+        height: 290px;
+    }
+
+    .camera {
+        margin-left: 15px;
+    }
+
+    .logos img {
+        height: 24px;
+        width: 105px;
+        margin-top: 14px;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 19px;
+        flex-wrap: wrap;
+
+        margin-left: 160px;
+    }
+
+    .grid-line {
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .see-more {
+        color: #E02C6DDE;
+        text-align: end;
+        margin-right: 117px;
+    }
+
+    .my-custom {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* responsiveness for ipad */
+@media only screen and (min-width:788px) and (max-width: 992px) {
+    .grid-line {
+        display: flex;
+
+
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .my-custom {
+        display: flex;
+
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+}
