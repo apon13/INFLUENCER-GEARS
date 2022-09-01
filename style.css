@@ -1,7 +1,7 @@
 /* icon name */
 /* font ar family */
 body {
-    margin: 120px;
+    /* margin: 120px; */
     background-color: #AAAAAA;
 
 
@@ -9,8 +9,14 @@ body {
 }
 
 main {
+
     background-color: #FFFFFF;
-    padding: 10px;
+    padding: 59px;
+
+    width: 1019px;
+
+    margin-left: 177px;
+
 }
 
 .menu {
@@ -38,7 +44,7 @@ main {
 .main-camera {
     width: 424px;
     height: 307px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 .camera {
@@ -162,14 +168,48 @@ div img {
 }
 
 /* responsiveness */
-@media only screen and (max-width: 788px) {
+@media only screen and (max-width: 688px) {
+    body {
+        width: 100%;
+        border: 1px solid red;
+        margin: 0;
+    }
+
+    main {
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .white {
+        white-space: normal;
+    }
+
+    .skills {
+        margin: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .custom {
+        color: #ffffff;
+        background-color: #59437a;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .my-custom {
+        display: flex;
+        flex-direction: row;
+    }
+
+
     .menu {
         display: flex;
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
-
-
     }
 
     .camera-section {
@@ -190,13 +230,16 @@ div img {
     }
 
     .main-camera {
-        width: 344px;
-        height: 227px;
-        margin-left: 46px;
+        width: 100%;
+        /* height: 227px; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     div img {
-        width: 408px;
+        width: 300px;
         height: 290px;
     }
 
@@ -211,13 +254,14 @@ div img {
     }
 
     .logos {
+        width: 100%;
         display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 19px;
+
+
+        margin-top: 10px;
         flex-wrap: wrap;
 
-        margin-left: 160px;
+        /* margin-left: 160px; */
     }
 
     .grid-line {
@@ -234,12 +278,7 @@ div img {
         margin-right: 117px;
     }
 
-    .my-custom {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        flex-wrap: wrap;
-    }
+
 }
 
 /* responsiveness for ipad */
